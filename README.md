@@ -27,4 +27,4 @@
    
 # |-------------------------------------------------->🔥Heroku:
 * The easiest way to deploy [@YoutubeDownloadVrtx_Bot](https://github.com/phantomXhawk/YouTube-Downloader.git)
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/phantomXhawk/YouTubeDownloader.git/tree/dev)
+* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/Telegram-YouTube-Downloader.git/tree/master)
