@@ -44,7 +44,7 @@ from pyrogram import (Client,
                       InputMediaVideo,
                       InputMediaAudio)
 
-from helper.ffmfunc import duration
+from func.ffmfunc import duration
 from func.ytdlfunc import downloadaudiocli
 from PIL import Image
 from hachoir.metadata import extractMetadata
