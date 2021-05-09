@@ -57,7 +57,7 @@ async def ytdl(_, message):
         pass
 
     url = message.text.strip()
-    await message.reply_chat_action("typing")
+    await message.reply_chat_action("upload_video")
     try:
         title, thumbnail_url, formats = extractYt(url)
 
@@ -66,10 +66,10 @@ async def ytdl(_, message):
                                      timedelta(minutes=youtube_next_fetch)
 
     except Exception:
-        await message.reply_text("`Failed To Fetch Youtube Data...😔\nWait for 2-5mins")
+        await message.reply_text("`Failed To Fetch Youtube Data...😔\nWait for {wait_time} or try other link")
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
-    sentm = await message.reply_text("Analyzing the url 🧠👀🧠👀")
+    sentm = await message.reply_text("Select Audio or Video👇🏻")
     try:
         # Todo add webp image support in thumbnail by default not supported by pyrogram
         # https://www.youtube.com/watch?v=lTTajzrSkCw

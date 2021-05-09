@@ -110,7 +110,7 @@ async def catch_youtube_dldata(c, q):
     if not os.path.isdir(userdir):
         os.makedirs(userdir)
     await q.edit_message_reply_markup(
-        InlineKeyboardMarkup([[InlineKeyboardButton("Commanding UTube..", callback_data="down")]]))
+        InlineKeyboardMarkup([[InlineKeyboardButton("Getting BEST_QUALITY💋", callback_data="down")]]))
     filepath = os.path.join(userdir, filext)
     # await q.edit_message_reply_markup([[InlineKeyboardButton("Processing..")]])
 
@@ -178,17 +178,19 @@ async def catch_youtube_dldata(c, q):
     if med:
         loop.create_task(send_file(c, q, med, filename))
     else:
-        print("med not found")
+        print("media not found")
 
 
 async def send_file(c, q, med, filename):
     print(med)
     try:
         await q.edit_message_reply_markup(
-            InlineKeyboardMarkup([[InlineKeyboardButton("Here it comes..", callback_data="down")]])          
+            InlineKeyboardMarkup([[InlineKeyboardButton("1", callback_data="down")]]),
+            InlineKeyboardMarkup([[InlineKeyboardButton("2", callback_data="down")]]),
+            InlineKeyboardMarkup([[InlineKeyboardButton("3", callback_data="down")]]),
+            InlineKeyboardMarkup([[InlineKeyboardButton("Uploading📤", callback_data="down")]])          
             )
-        await c.send_chat_action(chat_id=q.message.chat.id, action="upload_document")
-        # this one is not working
+        await c.send_chat_action(chat_id=q.message.chat.id, action="record_video")
         await q.edit_message_media(media=med)
     except Exception as e:
         print(e)
