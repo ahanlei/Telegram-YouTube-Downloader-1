@@ -52,7 +52,7 @@ plugins = dict(
 
 Client(
     "YouTubeDlBot",
-    token=TOKEN,
+    bot_token=TOKEN,
     api_id=APP_ID,
     api_hash=API_HASH,
     plugins=plugins,
