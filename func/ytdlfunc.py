@@ -86,18 +86,19 @@ def downloadyt(url, fmid, custom_progress):
 """
 docvideo is under construction 
 """
-#async def downloadvideocli(command_to_exec):
- #   process = await asyncio.create_subprocess_exec(
-  #      *command_to_exec,
-   #     # stdout must a pipe to be accessible as process.stdout
-    #    stdout=asyncio.subprocess.PIPE,
-     #   stderr=asyncio.subprocess.PIPE, )
-   # stdout, stderr = await process.communicate()
-  #  e_response = stderr.decode().strip()
- #   t_response = stdout.decode().strip()
-#    print(e_response)
- #   filename = t_response.split("Merging formats into")[-1].split('"')[1]
-  #  return filename
+async def downloadvideocli(command_to_exec):
+    process = await asyncio.create_subprocess_exec(
+        *command_to_exec,
+        # stdout must a pipe to be accessible as process.stdout
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE, )
+    stdout, stderr = await process.communicate()
+    e_response = stderr.decode().strip()
+    t_response = stdout.decode().strip()
+    print(e_response)
+    filename = t_response.split("Merging formats into")[-1].split('"')[1]
+    
+    return filename
 
 
 async def downloadaudiocli(command_to_exec):
