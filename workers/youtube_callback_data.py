@@ -64,8 +64,7 @@ async def catch_youtube_fmtid(c, m):
                                                                                                     callback_data=f"docaudio||{format_id}||{yturl}")]])
         else:
             buttons = InlineKeyboardMarkup([[InlineKeyboardButton(
-                "Video", callback_data=f"{media_type}||{format_id}||{yturl}"), InlineKeyboardButton("Document",
-                                                                                                    callback_data=f"docvideo||{format_id}||{yturl}")]])
+                "Video", callback_data=f"{media_type}||{format_id}||{yturl}"),]])
 
         await m.edit_message_reply_markup(buttons)
 
@@ -100,7 +99,7 @@ async def catch_youtube_dldata(c, q):
             img.resize((90, height))
         img.save(thumb_image_path, "JPEG")
      #   print(thumb_image_path)
-    if not cb_data.startswith(("video", "audio", "docaudio", "docvideo")):
+    if not cb_data.startswith(("video", "audio", "docaudio")):
         print("no data found")
         raise ContinuePropagation
 
@@ -166,15 +165,18 @@ async def catch_youtube_dldata(c, q):
             thumb=thumb_image_path,
             caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
         )
+        
 
-    if cb_data.startswith("docvideo"):
-        filename = await downloadvideocli(video_command)
-        dur = round(duration(filename))
-        med = InputMediaDocument(
-            media=filename,
-            thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
-        )
+    #if cb_data.startswith("docvideo"):
+     #   filename = await downloadvideocli(video_command)
+      #  dur = round(duration(filename))
+       # med = InputMediaDocument(
+        #    media=filename,
+       #     thumb=thumb_image_path,
+      #      caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
+    #    )
+    
+    
     if med:
         loop.create_task(send_file(c, q, med, filename))
     else:
