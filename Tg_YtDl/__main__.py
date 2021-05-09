@@ -47,7 +47,7 @@ API_HASH = config.API_HASH
 
 
 plugins = dict(
-    root="plugins",
+    root="workers",
 )
 
 Client(
@@ -55,6 +55,6 @@ Client(
     token=TOKEN,
     api_id=APP_ID,
     api_hash=API_HASH,
-    plugins=workers,
+    plugins=plugins,
     workers=100
 ).run()
