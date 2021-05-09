@@ -185,10 +185,7 @@ async def send_file(c, q, med, filename):
     print(med)
     try:
         await q.edit_message_reply_markup(
-            InlineKeyboardMarkup([[InlineKeyboardButton("1", callback_data="down")]]),
-            InlineKeyboardMarkup([[InlineKeyboardButton("2", callback_data="down")]]),
-            InlineKeyboardMarkup([[InlineKeyboardButton("3", callback_data="down")]]),
-            InlineKeyboardMarkup([[InlineKeyboardButton("Uploading📤", callback_data="down")]])          
+                 InlineKeyboardMarkup([[InlineKeyboardButton("Uploading📤", callback_data="down")]])          
             )
         await c.send_chat_action(chat_id=q.message.chat.id, action="record_video")
         await q.edit_message_media(media=med)
