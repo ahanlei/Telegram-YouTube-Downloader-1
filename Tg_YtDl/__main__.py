@@ -41,7 +41,7 @@ DOWNLOAD_LOCATION = "./Downloads"
 """
 Get the telegram config files
 """
-TOKEN = config.TOKEN
+BOT_TOKEN = config.BOT_TOKEN
 APP_ID = config.APP_ID
 API_HASH = config.API_HASH
 
@@ -52,7 +52,7 @@ plugins = dict(
 
 Client(
     "YouTubeDlBot",
-    token=TOKEN,
+    BOT_TOKEN=BOT_TOKEN,
     api_id=APP_ID,
     api_hash=API_HASH,
     plugins=plugins,
