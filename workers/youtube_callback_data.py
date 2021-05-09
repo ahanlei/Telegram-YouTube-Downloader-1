@@ -44,8 +44,8 @@ from pyrogram import (Client,
                       InputMediaVideo,
                       InputMediaAudio)
 
-from func.ffmfunc import duration
-from func.ytdlfunc import downloadaudiocli 
+from helper.ffmfunc import duration
+from func.ytdlfunc import downloadaudiocli
 from PIL import Image
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
@@ -64,7 +64,7 @@ async def catch_youtube_fmtid(c, m):
                                                                                                     callback_data=f"docaudio||{format_id}||{yturl}")]])
         else:
             buttons = InlineKeyboardMarkup([[InlineKeyboardButton(
-                "Video", callback_data=f"{media_type}||{format_id}||{yturl}"),]])
+                "Video", callback_data=f"{media_type}||{format_id}||{yturl}")]])
 
         await m.edit_message_reply_markup(buttons)
 
