@@ -1,7 +1,6 @@
-Pyrogram
-git+https://github.com/pyrogram/pyrogram.git
+TgCrypto
 https://github.com/CW4RR10R/pyrogram/archive/asyncio.zip
 git+https://github.com/ytdl-org/youtube-dl
-wget 
+wget
 pillow
 hachoir
