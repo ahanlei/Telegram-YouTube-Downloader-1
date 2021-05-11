@@ -75,7 +75,7 @@ def downloadyt(url, fmid, custom_progress):
      ydl_opts = {
          'format': f"{fmid}+bestaudio",
          "outtmpl": "test+.%(ext)s",
-         'noplaylist': True,
+         'noplaylist': False,
          'progress_hooks': [custom_progress],
      }
      with youtube_dl.YoutubeDL(ydl_opts) as ydl:
