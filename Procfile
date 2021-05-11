@@ -1,1 +1,1 @@
-worker: chmod +x engine.sh && bash engine.sh
+worker: python3 -m Tg_YtDl
