@@ -5,3 +5,4 @@ wget
 pillow
 hachoir
 pyrogram
+git+https://github.com/pyrogram/pyrogram.git
