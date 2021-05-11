@@ -1,9 +1,10 @@
-#                                   . YoutubeDownloadBot .
-* Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL [Do not forwarded any just copy and paste the link]
-* Reach me on Telegram [@vrtxyoutube_bot](https://t.me/vrtxyoutube_bot)
+#  YouTube-Downloader
 <p align="centre">
   <img src="https://telegra.ph/file/8e47e1e5f501555bc0e59.jpg">
 </p>
+* Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL [Do not forwarded any just copy and paste the link]
+* Reach me on Telegram [@vrtxyoutube_bot](https://t.me/vrtxyoutube_bot)
+
 
 # |-------------------------------------------------->💋Use: 
 * PERSONAL ---- Copy any Valid Youtube link and paste inside the bot and follow the prompts.
@@ -26,5 +27,4 @@
 * python3 -m YoutubeDL
    
 # |-------------------------------------------------->🔥Heroku:
-* The easiest way to deploy [@YoutubeDownloadVrtx_Bot](https://github.com/mastermindvrtx/YouTube-Downloader.git)
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/YouTube-Downloader.git/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/YouTube-Downloader.git/tree/Master)--|**The easiest way to deploy  Music-Player-Bot**
