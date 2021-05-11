@@ -1,1 +1,1 @@
-worker: python3 -m  Tg_YtDl
+worker: chmod +x start.sh && bash start.sh
