@@ -4,4 +4,3 @@ git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
 hachoir
-Pyrogram==1.2.9
