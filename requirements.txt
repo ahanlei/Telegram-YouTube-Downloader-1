@@ -4,3 +4,4 @@ git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
 hachoir
+pyTelegramBotAPI==0.3.0
