@@ -1,6 +1,6 @@
 from time import time
 from datetime import datetime
-from pyrogram import Client, filters, emoji
+from pyrogram import Client, Filters
 from pyrogram.types import Message
 
 # DELAY_DELETE = 60
