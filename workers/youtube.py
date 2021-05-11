@@ -34,7 +34,7 @@
 """
 
 from datetime import datetime, timedelta
-from pyrogram import Client, filters, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 from Tg_YtDl import user_time
 from config import youtube_next_fetch
 from func.ytdlfunc import extractYt, create_buttons
