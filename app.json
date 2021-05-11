@@ -1,0 +1,40 @@
+{
+    "name": "YoutubeDownloader",
+    "description": "Download any Youtube Audio/Video at full quality",
+    "repository": "https://github.com/mastermindvrtx/YouTube-Downloader.git",
+    "logo": "https://telegra.ph/file/a4478a612d7a8bc515874.jpg",
+    "success_url": "https://t.me/vrtxmusic",
+    "website": "https://t,me/vrtxmusic", 
+  
+    "keywords": [
+      "Youtube",
+      "YoutubeDownloader",
+      "YoutubeMusic",
+      "Audio",
+      "Music",
+      "Video",
+      "Premium"
+    ],  
+    "env": {
+        "API_ID": {
+                "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+                "required": true
+        },
+        "API_HASH": {
+                "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+                "required": true
+        },
+        "TOKEN": {
+                "description": "Your telegram bot token.Get from Botfather",
+                "required": true
+        }
+      },
+      "buildpacks": [
+        {
+          "url": "https://github.com/mastermindvrtx/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+          "url": "heroku/python"
+        }
+      ]
+    }
