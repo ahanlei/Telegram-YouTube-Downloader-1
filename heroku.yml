@@ -1,5 +1,7 @@
 build:
   docker:
-    web: Dockerfile
+      worker: Dockerfile
+      web: Dockerfile
 run:
-  web: 
+  web: bash engine.sh
+  web: python3 -m Tg_YtDl
