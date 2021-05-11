@@ -39,13 +39,12 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def love(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("⛓**LOVE**⛓:", url="https://t.me/vrtxmusic")],
+        [InlineKeyboardButton("💋LOVE💋:", url="https://t.me/vrtxmusic")],
     ])
-    aww = f"""
+    Aww = f"""
     Hey!!!!!! i am still working on this but feel free to poke around with the bot and send me feedbacks 
     ~ @mastermindvrtx
     """
-    
-    
-    await message.reply_text(aww, reply_markup=joinButton)
+       
+    await message.reply_text(Aww, reply_markup=joinButton)
     raise StopPropagation
