@@ -123,7 +123,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaAudio(
             media=filename,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
+            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
             title=os.path.basename(filename)
         )
 
@@ -136,7 +136,7 @@ async def catch_youtube_dldata(c, q):
             width=width,
             height=height,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
+            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
             supports_streaming=True
         )
 
@@ -145,7 +145,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ\n@YoutubeDownloadVrtx_Bot📥"),
+            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
         )
         
 
