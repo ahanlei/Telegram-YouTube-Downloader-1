@@ -1,5 +1,5 @@
-https://github.com/mastermindvrtx/Pyrogram/archive/refs/tags/alpha.zip
 TgCrypto
+https://github.com/mastermindvrtx/Pyrogram/archive/alpha.zip
 git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
