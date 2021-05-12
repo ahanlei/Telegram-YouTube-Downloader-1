@@ -35,7 +35,7 @@ If you liked my project and want and just want to make me happy then you can:
     
 **<b>{message.from_user.first_name}</b> 😁Thanks a lot for using my bot🍰**
 
-[ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)
+[ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ](https://telegra.ph/file/a532f298b920e99bd58bb.jpg)
 """
 
 
@@ -56,7 +56,7 @@ If you liked my project and want and just want to make me happy then you can:
     
 **<b>{message.from_user.first_name}</b> 😁Thanks a lot for using my bot🍰**
 
-[ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)
+[ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ](https://telegra.ph/file/a532f298b920e99bd58bb.jpg)
 """
 
        
