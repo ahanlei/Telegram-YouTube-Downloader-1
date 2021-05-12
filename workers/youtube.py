@@ -17,7 +17,7 @@
 
 from datetime import datetime, timedelta
 # i am  using the CW4RR10R/pyrogram so don't change anything stupidly
-from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters, InlineKeyboardButton, InlineKeyboardMarkup
 from Tg_YtDl import user_time
 from config import youtube_next_fetch
 from func.ytdlfunc import extractYt, create_buttons
