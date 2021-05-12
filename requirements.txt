@@ -1,6 +1,6 @@
 
 TgCrypto
-https://github.com/pyrogram/pyrogram/archive/v1.2.0.zip
+https://github.com/mastermindvrtx/Pyrogram-0.8.0/archive/vrsync.zip
 git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
