@@ -15,7 +15,7 @@
 ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ
 """
 
-from pyrogram import Client, Filters
+from pyrogram import Client, filters
 
 @Client.on_message(Filters.command(["help"]))
 async def start(client, message):
