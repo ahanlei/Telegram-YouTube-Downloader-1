@@ -18,7 +18,7 @@
 from pyrogram import Client, filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["youtubelink"]), group=-2)
+@Client.on_message(filters.command(["youtubelink"]), group=-2)
 async def love(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
@@ -33,7 +33,7 @@ async def love(client, message):
 - type /love if i helped u anyway🍗🍔🍟🍕
 ```ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ``` """
 
-@Client.on_message(Filters.command(["youtubelink@vrtxytbot"]), group=-2)
+@Client.on_message(filters.command(["youtubelink@vrtxytbot"]), group=-2)
 async def love(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
