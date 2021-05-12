@@ -17,7 +17,7 @@
 
 from datetime import datetime, timedelta
 # i am  using the CW4RR10R/pyrogram so don't change anything stupidly
-from pyrogram import Client, filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
 from Tg_YtDl import user_time
 from config import youtube_next_fetch
 from func.ytdlfunc import extractYt, create_buttons
@@ -29,7 +29,7 @@ from PIL import Image
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
 
 
-@Client.on_message(filters.regex(ytregex))
+@Client.on_message(Filters.regex(ytregex))
 async def ytdl(_, message):
     userLastDownloadTime = user_time.get(message.chat.id)
     try:
