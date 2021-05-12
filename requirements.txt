@@ -1,5 +1,5 @@
 TgCrypto
-git+git://github.com/mastermindvrtx/Pyrogram.git@releases/tag/aplha
+git+git://github.com/mastermindvrtx/Pyrogram/releases/tag/alpha
 git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
