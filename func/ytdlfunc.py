@@ -33,7 +33,7 @@
 ʍǟֆȶɛʀʍɨռɖ-ʋʀȶӼ
 """
 from __future__ import unicode_literals
-from pyrogram import Client, filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 import youtube_dl
 from humaner.hooli import humanbytes
 import asyncio
