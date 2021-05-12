@@ -1,7 +1,7 @@
 #  YouTube-Downloader
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=mastermindvrtx/YouTube-Downloader)
 <p align="centre">
-  <img src="https://telegra.ph/file/8e47e1e5f501555bc0e59.jpg">
+  <img src="https://telegra.ph/file/39812237fd7a1bfc02532.jpg">
 </p>
 * Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL [Do not forwarded any just copy and paste the link]
 * Reach me on Telegram (https://t.me/vrtxytbot)
@@ -29,3 +29,6 @@
    
 # |-------------------------------------------------->🔥Heroku:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/YouTube-Downloader.git/tree/Vrtx)--|**The easiest way to deploy  Music-Player-Bot**
+<p align="centre">
+  <img src="https://telegra.ph/file/a532f298b920e99bd58bb.jpg">
+</p>
