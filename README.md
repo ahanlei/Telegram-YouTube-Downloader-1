@@ -4,7 +4,7 @@
   <img src="https://telegra.ph/file/8e47e1e5f501555bc0e59.jpg">
 </p>
 * Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL [Do not forwarded any just copy and paste the link]
-* Reach me on Telegram [@vrtxyoutube_bot](https://t.me/vrtxyoutube_bot)
+* Reach me on Telegram [@vrtxytbot](https://t.me/vrtxytbot)
 
 
 # |-------------------------------------------------->💋Use: 
