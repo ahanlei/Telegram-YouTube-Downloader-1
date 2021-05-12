@@ -1,4 +1,4 @@
-https://github.com/mastermindvrtx/Pyrogram.git
+https://github.com/mastermindvrtx/Pyrogram/archive/refs/tags/alpha.zip
 TgCrypto
 git+https://github.com/ytdl-org/youtube-dl
 wget
