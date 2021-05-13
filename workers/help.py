@@ -33,7 +33,7 @@ Add me in any group then copy any valid Youtube link and paste inside the bot an
 -𝐅𝐢𝐥𝐞 𝐬𝐢𝐳𝐞 𝐦𝐨𝐫𝐞 𝐭𝐡𝐞𝐧 𝟐𝐠𝐛 𝐰𝐨𝐧'𝐭 𝐛𝐞 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐝𝐮𝐞 𝐭𝐨 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐩𝐨𝐥𝐢𝐜𝐲."""
     
 @Client.on_message(Filters.command(["help@vrtxytbot"]))
-async def help@vrtxytbot(client, message):
+async def help(client, message):
     
     # Thought of somemore features but i am lazy lul
     
