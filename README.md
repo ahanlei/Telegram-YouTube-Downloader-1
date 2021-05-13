@@ -28,7 +28,7 @@
 * python3 -m YoutubeDL
    
 # |-------------------------------------------------->🔥Heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/YouTube-Downloader.git/tree/Vrtx)--|**The easiest way to deploy  Music-Player-Bot**
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/Telegram-YouTube-Downloader.git/tree/Vrtx)--|**The easiest way to deploy  Music-Player-Bot**
 <p align="centre">
   <img src="https://telegra.ph/file/a532f298b920e99bd58bb.jpg">
 </p>
