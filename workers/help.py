@@ -18,7 +18,7 @@
 from pyrogram import Client, Filters
 
 @Client.on_message(Filters.command(["help"]))
-async def start(client, message):
+async def help(client, message):
     
     # Thought of somemore features but i am lazy lul
     
