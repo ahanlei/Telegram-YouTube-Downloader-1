@@ -1,5 +1,5 @@
-#  YouTube-Downloader
-![GitHub Contributors Image](https://contrib.rocks/image?repo=mastermindvrtx/YouTube-Downloader)
+#  YouTube-Downloader <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
+![GitHub Contributors Image](https://contrib.rocks/image?repo=mastermindvrtx/Telegram-YouTube-Downloader)
 <p align="centre">
   <img src="https://telegra.ph/file/39812237fd7a1bfc02532.jpg">
 </p>
