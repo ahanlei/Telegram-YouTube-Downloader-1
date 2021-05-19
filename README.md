@@ -1,5 +1,10 @@
-##  Tҽʅҽɠɾαɱ-YσυTυႦҽ-Dσɯɳʅσαԃҽɾ <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
-![GitHub Contributors Image](https://contrib.rocks/image?repo=mastermindvrtx/Telegram-YouTube-Downloader)
+##  Tҽʅҽɠɾαɱ-YσυTυႦҽ-Dσɯɳʅσαԃҽɾ 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/Telegram-YouTube-Downloader.git/tree/Vrtx)
+<img align="left" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="mastermindvrtx"/>
+<img aligh="centre" src="http://ForTheBadge.com/images/badges/made-with-python.svg" />
+<img alight="right" src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"/> 
+<img aligh="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
+<img src="https://telegra.ph/file/2e419eca28153982c5e54.jpg" align="centre"/>
 <p align="centre">
   <img src="https://telegra.ph/file/39812237fd7a1bfc02532.jpg">
 </p>
@@ -26,9 +31,7 @@
 * Change configuration config.py in heroku vars
 * Install dependencies
 * python3 -m YoutubeDL
-   
-# |-------------------------------------------------->🔥Heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mastermindvrtx/Telegram-YouTube-Downloader.git/tree/Vrtx)--|**The easiest way to deploy  Music-Player-Bot**
+ 
 <p align="centre">
   <img src="https://telegra.ph/file/a532f298b920e99bd58bb.jpg">
 </p>
